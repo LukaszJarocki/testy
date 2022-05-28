@@ -20,3 +20,14 @@ const confirmURL = (url) => {
     }))
 }
 
+//main part of test script
+
+describe('Form verification', ()=> {
+    it('should open app', ()=>{
+        cy.visit(parametersAccountManager.formURL)
+    })
+    it('should check UI elements of form', ()=>{
+       // cy.verifyForm()
+    })
+})
+
